@@ -5,6 +5,8 @@
   <body>
     <div class="card">
       <div class="card-header border-0">회원가입</div>
+      
+      	<h3>환영합니다 :)</h3>
         <div class="card-body">
        <form method="post">
         <div class="form-group row">

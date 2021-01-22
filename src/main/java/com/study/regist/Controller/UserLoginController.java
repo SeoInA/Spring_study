@@ -35,7 +35,7 @@ public class UserLoginController {
 	
 	@RequestMapping(value="/login", method=RequestMethod.GET)
 	public String LoginGET(@ModelAttribute("loginDTO") LoginDTO loginDTO) {
-		return "redirect:/regist/login";
+		return "/regist/login";
 	}
 	
 	@RequestMapping(value="/loginPost", method=RequestMethod.POST)

@@ -6,6 +6,7 @@
   <div class="card">
   <div class="card-header border-0">로그인</div>
     <div class="card-body">
+    	
       <form action="${path}/regist/loginPost" method="post">
         <div class="form-group row">
           <input type="text" id="email_address" class="form-control"
